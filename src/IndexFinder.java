@@ -1,10 +1,8 @@
 import java.util.Arrays;
 
 public class IndexFinder {
-
-
+    
     public int[] twoSum(int[] tabOfInt, int target) {
-
 
         for (int i = 0; i < tabOfInt.length; i++) {
 
@@ -23,6 +21,4 @@ public class IndexFinder {
         int target = 8;
         System.out.println(Arrays.toString(indexFinder.twoSum(tabOfInt, target)));
     }
-
-
 }
